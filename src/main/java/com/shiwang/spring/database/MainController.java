@@ -61,5 +61,11 @@ public class MainController {
 		customerservice.deleteCustomer(id);
 		return "redirect:/Main/home";
 	}
+
+	@GetMapping("/helloworld")
+	public String deleteCustomer() {
+		
+		return "Hello World!!";
+	}
 	
 }
